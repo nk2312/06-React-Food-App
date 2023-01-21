@@ -1,0 +1,72 @@
+.meals{
+    background-color: grey;
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px
+}
+.meals-summary{
+    padding: 34px;
+    line-height: 24px;
+    font-size: 18px;
+    font-family:monospace;
+    z-index:10;
+    position:absolute;
+}
+.add-meals{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e8;
+    height: 85px;
+    padding: 13px;
+}
+.add-meals:nth-last-child{
+    border-bottom:none;
+}
+.meal-desc{
+    font-size:14px;
+    color:grey;
+    font-family:cursive;
+}
+.meal-name{
+    font-weight:bold;
+}
+.meal-amt{
+    font-weight:800;
+    font-size:20;
+}
+.meal-btn{
+    width: 91px;
+    font-size: 15px;
+    background-color: rgba(130, 40, 40, 0.928);
+    border-radius: 10px;
+    border:none;
+    height:37px;
+    color:#fff;
+}
+.meal-btn:hover{
+    background-color: rgb(216, 41, 41);
+    color:#ffffff;
+}
+.card.meal-items{
+    width: 733px;
+    height: auto;
+    padding: 20px;
+}
+.meal-form{
+    display:flex;
+    height:95px;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right:75px;
+}
+input{
+    width:75px;
+}
+input:hover{
+    border-color: rgb(113, 113, 155);
+}
+.fetch-error{
+    color: red !important;
+    text-align: center;
+}

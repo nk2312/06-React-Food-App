@@ -1,0 +1,9 @@
+
+
+.food-img{
+  background-image: url('./asset/images/food-app-img.jpg');
+  width:97vw;
+  height:250vh;
+  background-attachment: fixed;
+  background-repeat: repeat;
+}

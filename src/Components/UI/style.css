@@ -1,0 +1,82 @@
+
+
+
+h1{
+    margin-left:20px;
+    color: rgb(243, 214, 228);
+}
+.header{
+    height:130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+    border-bottom:1px solid #e6e6e8;
+    position: sticky;
+    top: 0;
+    background-color: rgb(132, 33, 33);
+}
+.add-to-cart-btn{
+    border: 1px solid black;
+    border-radius: 22px;
+    width: 178px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(169, 169, 169);
+    color:#000;
+    margin-right: 59px;
+}
+.add-to-cart-btn:hover{
+    background-color: rgb(198, 173, 177);
+    cursor: pointer;
+}
+.badge{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+    background-color: rgb(46, 45, 45);
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.card{
+    background-color: whitesmoke;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px 0 rgb(34 33 46 / 16%);
+    width: 600px;
+    height: 280px;
+    margin:22px auto;
+    position:relative;
+}
+.login-btn{
+    width: 123px;
+    border-radius: 21px;
+    margin: 0 20px;
+    border: none;
+}
+.login-btn:hover{
+    transform: scale(120%);
+    cursor: pointer;
+}
+
+.bump{
+    animation: example 1s ease-out ;
+}
+
+@keyframes example {
+    0%{
+        transform: scale(0.6);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}

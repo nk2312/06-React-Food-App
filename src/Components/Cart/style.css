@@ -1,0 +1,134 @@
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+
+}
+.card-modal{
+z-index: 23;
+position: absolute;
+top: 25px;
+left: 250px;
+background-color: grey;
+height:auto;
+width:700px;
+}
+.bill-summary{
+padding: 15px;
+background-color: purple;
+border-radius: 8px;
+text-align: center;
+font-weight: Bold;
+font-size: 30px;
+color: #ffffff;
+}
+.bill-items{
+background-color: #ffffff;
+color: rgb(48, 36, 13);
+height:300px;
+font-size: 20px;
+font-weight: 600;
+overflow-y: scroll;
+}
+.quant-price{
+    color: rgb(87, 87, 87);
+}
+.total-amount{
+height:105px;
+width: 320px;
+}
+.quant{
+    margin-left:225px;
+}
+.btn-meal{
+    margin:-12px 0px 20px 20px;
+}
+.btn-meal button{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.span{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left:29px;
+}
+.bill-heading{
+display: flex;
+justify-content: space-between;
+margin-left: 53px;
+width: 600px;
+height:50px;
+border-bottom: 1px solid rgb(177, 19, 19);
+}
+.bill-heading:first-child{
+    border-bottom: none;
+}
+.bill-para{
+    width:130px;
+}
+.bill-header-title{
+font-weight: 800;
+text-decoration: underline;
+color: red;
+}
+.error{
+font-size: 25px;
+margin: 156px;
+color: #ffffff;
+font-weight: bold;
+line-height: 24px;
+}
+.input-div{
+    display: flex;
+    justify-content: space-around;
+}
+.input-div input{
+    width:280px !important;
+    margin: 10px 20px;
+    height: 20px;
+}
+.input-div input:focus{
+    outline:none;
+}
+.input-div label{
+    margin:0px 20px;
+    font-weight: 500;
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.checkout{
+    border-radius: 13px;
+    color: #fff;
+    background-color: rgb(173, 14, 14);
+    height: 38px;
+    width: 126px;
+    border: none;
+    font-size: 20px;
+    margin:20px 0px 20px 93px ;
+}
+.checkout:hover{
+    transform: scale(120%);
+}
+.checkout:disabled{
+    background-color: rgba(173, 14, 14,0.5);
+}
+.invalid{
+    color:red;
+    text-align: center;
+}
+.submit{
+    color: green;
+    z-index: 20;
+    height: 102px;
+    padding: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 190px;
+    left: 124px;
+}
